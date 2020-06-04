@@ -24,54 +24,57 @@
 }
 
 
-#title {
+/* user stories freecodecamp */
+
+#title{
+ font-size: h1;
 }
 
-#main{
+#description{
+
 }
 
-#img-div {
-  text-align: center;
+#survey-form{
+
 }
 
-#image {
-width: 100%;
-height: auto;
-max-width: 625px;
-margin-left: auto;
-margin-right: auto;
-display: block;
+#name-label{
+
 }
 
+#email-label{
 
-
-#img-caption{
 }
 
-#tribute-info{   
+#number-label{
+
 }
 
-#tribute-link{
-  text-decoration: underline;
-  color: #00FF00;
+form{
+  background-color: white;
 }
 
-#tribute-link-2{
-  text-decoration: underline;
-  color: #00FF00;
-}
+/* user stories freecodecamp */
 
-/*end code for freecodecamp*/
+.container{
+  margin-top: 5%;
+  width: 800px;
+  height: 800px;
+  display: center;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-gap: 10px;
+}
 
 
 body{
-  background-color: white; 
+  background-color: black; 
   overflow-x: hidden;
 }
 
 h1{
   font-family: Helvetica Neue LT Std, Helvetica;
-  color: white;
+  color: black;
   margin-left: 25px;
   margin-top: 25px;
   font-style: normal;
@@ -84,7 +87,7 @@ h1{
 
 h2{
   font-family: Helvetica Neue LT Std, Helvetica;
-  color: white;
+  color: black;
   height: 56px;
   font-style: normal;
   font-weight: bold;
@@ -95,7 +98,7 @@ h2{
 
 p{
   font-family: Helvetica Neue LT Std, Helvetica;
-  color: white;
+  color: black;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -108,45 +111,9 @@ p{
   
 }
 
-.div-image{
-  display: center;
-  text-align: center;
-}
-
-.image-resp{
-  width: 100%;
-  max-width: 700px;
-  height: auto;
-  display: center;
-  padding-top: 90px;
-  padding-bottom: 50px;
-}
 
 
-/* start splashscreen */
-
-.container{
-  margin-top: 0px;
-  width: 100%;
-  height: 1000px;
-  display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 25% 25% 25% 25%;
-  grid-gap: 10px;
-  grid-template-areas: 
-  "header header header header header"
-  "content content content content content"
-  "content content content content content"
-  "content content content content content"
-  "content content content content content"
-
-}
 
 .item-header{
   grid-area: 1/1/2/4;
 }  
-
-
-
-
-
