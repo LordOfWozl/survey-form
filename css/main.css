@@ -56,33 +56,55 @@ form{
 
 /* user stories freecodecamp */
 
+.form-div{
+  margin-top: 25px;
+  border: solid pink 1px;
+}
+
+label{
+  font-family: Helvetica;
+  color: #37414a;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"]{
+  font-family: Helvetica;
+  font-size: 21px;
+  font-weight: lighter;
+  color: #cecece;
+  border: none;
+  border-bottom: 1px solid #cecece;
+  outline: none;
+  margin-top: 15px;
+}
+
+input:focus{
+  border: 3px solid #555;
+}
+
 .container{
-  margin-top: 5%;
-  width: 800px;
-  height: 800px;
-  display: center;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 25% 25% 25% 25%;
-  grid-gap: 10px;
+  padding: 20px 20px 20px 20px;
+  border: solid red;
 }
 
 
 body{
-  background-color: black; 
+  background-color: white; 
   overflow-x: hidden;
 }
 
+
 h1{
-  font-family: Helvetica Neue LT Std, Helvetica;
+  font-family: Helvetica;
   color: black;
   margin-left: 25px;
   margin-top: 25px;
   font-style: normal;
   font-weight: bold;
-  font-size: 120px;
-  line-height: 95%;
-  text-shadow: rgb(0,0,0,0.5) 1px 0 15px;
-
+  font-size: 28px;
 }
 
 h2{
@@ -96,24 +118,4 @@ h2{
   text-align: center;
 }
 
-p{
-  font-family: Helvetica Neue LT Std, Helvetica;
-  color: black;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 160%;
-}
 
-.div-text {
-  display: center;
-  text-align: left;
-  
-}
-
-
-
-
-.item-header{
-  grid-area: 1/1/2/4;
-}  
