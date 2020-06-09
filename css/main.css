@@ -57,8 +57,10 @@ form{
 /* user stories freecodecamp */
 
 .form-div{
-  margin-top: 25px;
+  margin-bottom: 25px;
   border: solid pink 1px;
+  padding: 5px 5px 5px 5px;
+  display: block;
 }
 
 label{
@@ -72,17 +74,19 @@ input[type="text"],
 input[type="email"],
 input[type="number"]{
   font-family: Helvetica;
-  font-size: 21px;
+  font-size: 18px;
   font-weight: lighter;
-  color: #cecece;
   border: none;
-  border-bottom: 1px solid #cecece;
+  border-bottom: 1px solid #1000ff;
   outline: none;
   margin-top: 15px;
 }
 
 input:focus{
-  border: 3px solid #555;
+  border: none;
+  border-bottom: 1px solid #1000ff;
+  color: #1000ff;
+
 }
 
 .container{
